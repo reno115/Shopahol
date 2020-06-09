@@ -11,7 +11,28 @@
             <h1 class= "center">CENTER</h1>
             <!-- Content per page id -->
             <?php
+              if (isset ($_GET["page"])) {
+                // code...
+                $p = $_GET["page"];
+                $page = "includes/".$p.".php";
 
+                  if (file_exists($page))
+                    // code...
+                    include($page);
+                      else
+                        // code...
+                        echo "Sorry wij kunnen de pagina niet vinden.";
+              }
+              //Als je index.php ophaaalt. wil je altijd de homepagina zien.
+              else {
+                // code...
+                $p = 'home';
+                $page = "includes/".$p.".php";
+
+                  if (file_exists($page))
+                    // code...
+                    include($page);
+              }
             ?>
         </article>
     <!-- Links content -->
@@ -33,12 +54,12 @@
                                         <h2>Inloggen</h2>
                                         <div class="input-group">
                                             <input type="text" name="loginUser"id="loginUser" required>
-                                            <label for="loginUser">Gebruikersnaam</label>
+                                            <label for="user">Gebruikersnaam</label>
                                         </div>
 
                                         <div class="input-group">
                                             <input type="password" name="loginPassword" id="loginPassword" required>
-                                            <label for="loginPassword">Wachtwoord</label>
+                                            <label for="pass">Wachtwoord</label>
                                         </div>
 
                                         <input type="submit" value="Login" class="submit-btn">
