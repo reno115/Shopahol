@@ -1,6 +1,4 @@
 <div class="content-include_center">
-      <p>Hallo</p>
-      <p>content not available</p>
+      <p>Over ons</p>
+      <p>ShopAholic is een opkomende online kleding shop.</p>
 </div>
-
-

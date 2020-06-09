@@ -8,7 +8,7 @@
     </header>
     <!-- Center content, die je ophaalt met een include per var pagina -->
         <article class="main">
-            <h1 class= "center">CENTER</h1>
+            <h1 class= "center"></h1>
             <!-- Content per page id -->
             <?php
               if (isset ($_GET["page"])) {

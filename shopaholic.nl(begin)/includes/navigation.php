@@ -7,9 +7,9 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content" id="myDropdownHeren">
-            <a href="#">Categorie 1</a>
-            <a href="#">Categorie 2</a>
-            <a href="#">Categorie 3</a>
+            <a href="#">Broeken</a>
+            <a href="#">Hoodies</a>
+            <a href="#">T-shirts</a>
         </div>
     </div>
     <div class="dropdown">
@@ -26,14 +26,3 @@
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
