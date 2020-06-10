@@ -35,7 +35,7 @@
               }
             ?>
         </article>
-    <!-- Links content -->
+    <!-- Links content content -->
             <aside class="aside aside-1">
                 <div class= "Left">
                     <h1>LINKS</h1>
