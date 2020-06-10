@@ -438,3 +438,12 @@ body {
 .close-button{
     visibility: hidden;
 }
+
+
+/* Product */
+
+.product-Info img{
+  width: 60px;
+
+
+}
